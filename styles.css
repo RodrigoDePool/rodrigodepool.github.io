@@ -186,28 +186,40 @@
             }
 
             h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
 
             .profile-and-contact {
-                flex-direction: column;
-                align-items: center;
+                flex-direction: row;
+                align-items: flex-start;
                 gap: 1rem;
             }
 
             .profile-img {
-                width: 120px;
-                height: 140px;
+                width: 100px;
+                height: 120px;
             }
 
             .contact-info {
-                text-align: center;
-                font-size: 0.85rem;
+                text-align: left;
+                font-size: 0.8rem;
+                flex: 1;
+                word-wrap: break-word;
             }
 
             .publications li {
-                flex-direction: column;
+                flex-direction: row;
+                flex-wrap: wrap;
                 gap: 0.5rem;
+            }
+
+            .links {
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+
+            .paper-details {
+                font-size: 16px;
             }
 
             .teaching-list li {

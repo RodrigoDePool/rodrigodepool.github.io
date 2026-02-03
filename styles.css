@@ -1,0 +1,171 @@
+        /* --- 1. Global Styles --- */
+        body {
+            /* "Cormorant Garamond" is very similar to the NYT/Math style. 
+               Fallback to Georgia or Times New Roman if the internet is down. */
+            font-family: 'Cormorant Garamond', 'Georgia', 'Times New Roman', serif;
+            background-color: #ffffff;
+            color: #111; /* Almost black, softer on eyes */
+            font-size: 20px; /* Slightly larger text for modern readability */
+            line-height: 1.4; /* Critical for the "Essay" feel */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- 2. The "NY Times" Centered Column --- */
+        .container {
+            max-width: 680px; /* The "narrow column" look */
+            margin: 0 auto;   /* Centers the container */
+            padding: 4rem 1.5rem; /* Top/Bottom padding, Side padding for mobile */
+        }
+
+        /* --- 3. Typography & Elements --- */
+        h1 {
+            font-weight: 600;
+            font-size: 2.2rem;
+            margin: 0;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            /* NYT Style: Left align text for readability, but center the layout */
+            text-align: left; 
+        }
+
+        /* --- 4. Navigation Links --- */
+        nav {
+            text-align: center;
+            margin: 0;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-variant: small-caps; /* Gives it a formal academic look */
+            font-size: 1.1rem;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom 0.3s ease;
+        }
+
+        nav a:hover {
+            border-bottom: 1px solid #000;
+        }
+
+        /* --- Header --- */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            gap: 2rem;
+        }
+
+        /* --- 5. Profile Image --- */
+        .profile-img {
+            width: 150px;
+            height: 170px;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* --- Bio Section --- */
+        .bio {
+            margin-bottom: 2rem;
+        }
+
+        .profile-and-contact {
+            display: flex;
+            align-items: flex-start;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .about-me h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        /* --- Publications --- */
+        .publications h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .publications ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .publications li {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            align-items: flex-start;
+        }
+
+        .paper-details {
+            flex: 1;
+        }
+
+        /* --- Teaching --- */
+        .teaching h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .teaching-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .teaching-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            padding: 0.25rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .year {
+            flex: 0 0 15%;
+            font-weight: 600;
+        }
+
+        .course {
+            flex: 1;
+            text-align: left;
+        }
+
+        /* --- 6. Contact Section --- */
+        .contact-info {
+            text-align: left;
+            font-size: 0.9rem;
+            color: #444;
+            margin: 0;
+            font-family: monospace; /* Adds a tiny bit of "code" flavor to email */
+        }
+
+        a.link-std {
+            color: #003366; /* Classic Academic Blue */
+            text-decoration: none;
+        }
+        
+        a.link-std:hover {
+            text-decoration: underline;
+        }

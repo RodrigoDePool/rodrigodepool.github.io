@@ -160,10 +160,9 @@
         /* --- 6. Contact Section --- */
         .contact-info {
             text-align: left;
-            font-size: 0.9rem;
+            font-size: 1.2rem;
             color: #444;
             margin: 0;
-            font-family: monospace; /* Adds a tiny bit of "code" flavor to email */
         }
 
         a.link-std {

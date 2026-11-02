@@ -114,6 +114,8 @@
             flex-direction: column;
             gap: 0.5rem;
             align-items: flex-start;
+            font-size: 0.7rem;
+
         }
 
         .paper-details {
@@ -212,10 +214,15 @@
             }
 
             .paper-details {
-                font-size: 16px;
+                font-size: 15px;
             }
 
-            .teaching-list li {
+            .teaching h2 {
+                font-size: 1.1rem;
+            }
+
+            .teaching-list{
+                font-size: 15px;
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 0.25rem;
@@ -226,3 +233,4 @@
                 font-size: 0.9rem;
             }
         }
+

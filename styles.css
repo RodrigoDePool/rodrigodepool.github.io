@@ -104,7 +104,7 @@
 
         .publications li {
             display: flex;
-            align-items: flex-start;
+            align-items: baseline; /* [arXiv]/[DOI] sit on the title's first line */
             gap: 1rem;
             margin-bottom: 1.5rem;
         }
